@@ -1,7 +1,7 @@
 import {Service1} from "./service1";
-import {Autowired} from "@node-mvc-decorator/core/lib/decorators/autowired";
-import {Controller} from "@node-mvc-decorator/core/lib/decorators/controller";
-import {GetMapping} from "@node-mvc-decorator/core/lib/decorators/get-mapping";
+import {Autowired} from "@node-mvc-decorator/core";
+import {Controller} from "@node-mvc-decorator/core";
+import {GetMapping} from "@node-mvc-decorator/core";
 
 @Controller
 export class Controller1 {
