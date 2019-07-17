@@ -12,12 +12,10 @@ export class Controller2 {
 
     constructor(private service2: Service2) {}
 
-    @GetMapping
+    @GetMapping({path: '/'})
     testGet1(@RequestParam('a') a: string) {
         this.service2.test();
-        return {
-            'test': 'hello world'
-        };
+        return {a: 'hello world'};
     }
     @RequestMapping({path: 'test', params: ['a=1', 'b'], method: [RequestMethod.GET, RequestMethod.POST]})
     test(@RequestBody body: any) {
