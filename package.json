@@ -9,7 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "@node-mvc-decorator/express": "0.2.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
